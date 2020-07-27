@@ -93,6 +93,8 @@ footer{
 .footer-left{
     display: flex;
     width: 50%;
+    margin-left: 8%;
+    justify-content: flex-start;
 }
 .footer-left ul{
     display: flex;
@@ -101,13 +103,14 @@ footer{
 }
 .footer-left ul li{
     list-style-type: none;
-    margin-left: 55px;
+   
 }
 .footer-left ul li a{
     text-decoration: none;
     color: black;
     font-family: Roboto;
     font-size: 15px;
+    padding-right: 20px;
 }
 .fotter-right{
     display: flex;
